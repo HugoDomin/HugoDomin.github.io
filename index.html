@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"><!--el css inicialmente se llamava css pero lo cambie porque creo que es mejor si se llama styles-->
+    <title>Portafolio</title>
+</head>
+<!--Body (es el body)-->
+<body>
+    <header class="header">
+        <img src="logo.jpg" alt="Logo" class="logo">
+        <h1 class="titulo">Hugo Dominguez</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#quien-soy">Quien soy?</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contactame">Contáctame</a></li> 
+            </ul>
+        </nav>
+    </header>
+     <!-- Div de uso de cookies -->
+     <div class="cookie-banner">
+        <div class="cookie-content">
+            Este sitio utiliza cookies para mejorar la experiencia del usuario.
+            <button class="btn-hide" onclick="document.querySelector('.cookie-banner').style.display='none'">Aceptar</button>
+            <button class="btn-black" onclick="return false;">Más información</button>
+        </div>
+    </div>
+    
+    <!-- Secciones de ejemplo -->
+    <section id="quien-soy">
+        <h2>Quien soy?</h2>
+    </section>
+        <section id="quien-soy2">
+            <p>Soy un estudiante de 2º año de SMR grado medio de 17 años aventurandome en las complejas llanuras de la programación, con una inquebrantable pasion por los videojuegos </p>
+        </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+    </section>
+    <section id="proyectos2">
+        <p>Estos son algunos de los proyectos que he realizado </p>
+    </section>
+    <div class="recuadros-container">
+        <div class="recuadro">
+            <img src="likaso.png" class="imagen" alt="Descripción de la imagen 1">
+            <p>He hecho esta pagina en html y css, pero...</p>
+        </div>
+        <div class="recuadro">
+            <img src="ahhhhh-emoji-desapareciendo.png" class="imagen" alt="Descripción de la imagen 2">
+            <p>Pero el cuadrao de contactame no funciona</p>
+        </div>
+        <div class="recuadro">
+            <img src="copiloto.jpg" class="imagen" alt="Descripción de la imagen 3">
+            <p>Aun no he pillado el copilot</p>
+        </div>
+        <div class="recuadro">
+            <img src="pajas.jpg" class="imagen" alt="Descripción de la imagen 4">
+            <p>Targetita para rellenar Nº 1</p>
+        </div>
+        <div class="recuadro">
+            <img src="luna.jpg" class="imagen" alt="Descripción de la imagen 5">
+            <p>Me pasé el Terraria en modo Maestro</p>
+        </div>
+        <div class="recuadro">
+            <img src="calamity.jpg" class="imagen" alt="Descripción de la imagen 6">
+            <p>Voy a por el Calamity</p>
+        </div>
+    </div>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+    </section>
+    <section id="habilidades2">
+        <p>Manejo html+css y tengo un gran control sobre lo que quiero que la IA haga para mi </p>
+    </section>
+        <section id="contactame">
+            <h2 style="text-align: center;">Contáctame</h2>
+            <div class="contact-form">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo" required>
+                <textarea id="message" placeholder="Mensaje" required></textarea>
+                <button id="submitBtn">Enviar</button>
+                <p id="error-message" style="color: red; display: none;">Todos los campos deben ser rellenados y el correo debe ser válido.</p>
+            </div>
+        </section>
+    <!-- Pie de página -->
+    <div class="footer">
+        <p>&copy; 2024 Hugo Dominguez</p>
+        <button class="footer-button">
+            <img src="twitterX.jpeg" alt="Icono 1">
+        </button>
+        <button class="footer-button">
+            <img src="instagram.png" alt="Icono 2">
+        </button>
+        <button class="footer-button">
+            <img src="face.jpg" alt="Icono 3">
+        </button>
+    </div>
+</body>
+</html>
+<!--ah ahi ba un trabalenguas-->
+<!--El arzobispo de Constantinopla que tiene hipopotomonstrosesquipedaliofobia debido a su ácido desoxirribonucleico ha quedado con el otorrinolaringólogo 
+de Parangaricutirimícuaro porque quiere desarzobispoconstantinopopotomonstrosesquipedalioxiribonucleicotorrinolarigaparangaricutirimicuarizarse, 
+el desarzobispoconstantinopopotomonstrosesquipedalioxiribonucleicotorrinolarigaparangaricutirimicuarizador que lo 
+desarzobispoconstantinopopotomonstrosesquipedalioxiribonucleicotorrinolarigaparangaricutirimicuarize, 
+buen desarzobispoconstantinopopotomonstrosesquipedalioxiribonucleicotorrinolarigaparangaricutirimicuarizador será.-->

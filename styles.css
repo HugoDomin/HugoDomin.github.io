@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: white
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 10%;
+    height: auto;
+}
+
+.titulo {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    transform: scale(1.05);
+}
+/* Estilos generales del body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 94%; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.contact-form button {
+    background-color: black; 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.contact-form button:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.error-message {
+    color: red; 
+    display: none; 
+    text-align: center; 
+}
+/* Estilo del div de cookies */
+.cookie-banner {
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    z-index: 1000; 
+}
+
+/* Estilo del recuadro con el texto sobre cookies */
+.cookie-content {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+/* Estilo del botón de ocultar */
+.btn-hide {
+    background-color: white; 
+    color: black; 
+    border: none; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-left: 10px; 
+}
+
+/* Efecto al pasar el ratón sobre el botón de ocultar */
+.btn-hide:hover {
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
+}
+
+/* Estilo del botón negro */
+.btn-black {
+    background-color: black; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    margin-left: 10px; 
+}
+
+/* Efecto al pasar el ratón sobre el botón negro */
+.btn-black:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+/* Estilo del pie de página */
+.footer {
+    background-color: black; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+/* Contenedor para el texto y los botones */
+.footer-content {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; 
+}
+/* Estilo de los botones en el pie de página */
+.footer-button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: transform 0.3s; 
+    margin-left: 10px;
+    background-color: white; 
+    color: black;
+}
+
+/* Efecto al pasar el ratón sobre los botones del pie de página */
+.footer-button:hover {
+    transform: scale(1.1); 
+}
+/* Estilo para las imágenes dentro de los botones */
+.footer-button img {
+    width: 30px;
+    height: 30px;
+}
+/* Aumentar el margen de las seccións*/
+#quien-soy {
+    margin: 40px 40px; 
+}
+#quien-soy2 {
+    margin: 0px 20px; 
+}
+#proyectos {
+    margin: 40px 40px; 
+}
+#proyectos2 {
+    margin: 0px 20px; 
+}
+#habilidades {
+    margin: 40px 40px; 
+}
+#habilidades2 {
+    margin: 0px 20px; 
+}
+/* Contenedor para los recuadros */
+.recuadros-container {
+    display: flex; /* Usar flexbox para organizar los recuadros */
+    flex-wrap: wrap; /* Permitir que los recuadros se ajusten a múltiples líneas */
+    justify-content: space-between; /* Espacio entre los recuadros */
+    margin: 20px; /* Margen alrededor del contenedor */
+}
+
+/* Estilo de cada recuadro */
+.recuadro {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    width: calc(48% - 10px); /* Ancho del recuadro, dos por línea */
+    margin-bottom: 20px; /* Espacio entre filas */
+    text-align: center; /* Centrar el texto */
+    transition: transform 0.3s; /* Efecto de crecimiento suave */
+}
+
+/* Efecto al pasar el ratón por encima del recuadro */
+.recuadro:hover {
+    transform: scale(1.05); /* Aumentar el tamaño del recuadro */
+}
+
+/* Estilo de las imágenes dentro de los recuadros */
+.recuadro img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del recuadro */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 400px; /* Limitar el ancho máximo de la imagen */
+    max-height: 300px; /* Limitar la altura máxima de la imagen */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+    transition: content 0.3s; /* Transición suave para cambiar de imagen */
+}
+/* Estilo del texto debajo de la imagen */
+.recuadro p {
+    color: white; 
+    margin: 10px 0; 
+}
